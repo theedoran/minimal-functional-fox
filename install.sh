@@ -5,7 +5,7 @@ echoerr() { printf "%s\n" "$*" >&2; }
 download_mff() {
     echoerr " [>>] Downloading..."
 
-    curl -LJ0 https://github.com/mut-ex/minimal-functional-fox/archive/master.tar.gz | tar -xz -C /tmp/
+    curl -LJ0 https://github.com/theedoran/minimal-functional-fox/archive/master.tar.gz | tar -xz -C /tmp/
 
     if [[ $? -eq 0 ]]; then
         echoerr " [>>] Copying..."
