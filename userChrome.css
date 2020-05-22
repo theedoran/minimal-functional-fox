@@ -12,21 +12,19 @@
   --mff-tab-font-size: 11pt;
   --mff-tab-font-weight: 400;
   --mff-tab-height: 32px;
-  --mff-tab-pinned-bg: #70c1b3;
-  --mff-tab-selected-bg: #ee6c4d;
+  --mff-tab-pinned-bg: #E9922C;
+  --mff-tab-selected-bg: #2091A9;
   --mff-tab-soundplaying-bg: #9c89b8;
   --mff-urlbar-color: #98c1d9;
   --mff-urlbar-focused-color: #e0fbfc;
   --mff-urlbar-font-family: "Cantarell", serif;
+  --mff-urlbar-font-weight: 400;
   --mff-urlbar-font-size: 12pt;
-  --mff-urlbar-font-weight: 700;
   --mff-urlbar-results-color: #e0fbfc;
-  --mff-urlbar-results-font-family: "mononoki Nerd Font", serif;
+  --mff-urlbar-results-font-family: "Cantarell", serif;
   --mff-urlbar-results-font-size: 12pt;
-  --mff-urlbar-results-font-weight: 700;
+  --mff-urlbar-results-font-weight: 400;
   --mff-urlbar-results-url-color: #98c1d9;
-  /*   --mff-tab-selected-bg: linear-gradient(90deg, rgba(232,74,95,1) 0%, rgba(255,132,124,1) 50%, rgba(254,206,168,1) 100%); */
-  /*   --mff-urlbar-font-weight: 600; */
 
   /* Overriden Firefox variables*/
   --autocomplete-popup-background: var(--mff-bg) !important;
@@ -74,9 +72,9 @@
   margin-inline-end: 0px !important;
 }
 
-.tab-close-button {
- display: none !important;
-}
+/*.tab-close-button {*/
+ /*display: none !important;*/
+/*}*/
 
 .tab-text {
   font-family: var(--mff-tab-font-family);
