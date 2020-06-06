@@ -190,10 +190,6 @@ width: 50% !important;
   font-size: var(--mff-urlbar-font-size) !important;
 }
 
-.urlbarView-favicon, .urlbarView-type-icon {
-  display: none !important;
-}
-
 #urlbar-input {
   font-size: var(--mff-urlbar-font-size) !important;
   color: var(--mff-urlbar-color) !important;
