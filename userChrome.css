@@ -269,11 +269,11 @@ toolbar#nav-bar {
   padding: 4px !important;
 }
 
-#urlbar {
-  max-width: 70% !important;
-  margin: 0 15% !important;
+/*#urlbar {*/
+  /*max-width: 70% !important;*/
+  /*margin: 0 15% !important;*/
   /* 	position: unset!important; */;
-}
+/*}*/
 
 #urlbar-input:focus {
   color: var(--mff-urlbar-focused-color) !important;
