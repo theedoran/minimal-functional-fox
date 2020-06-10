@@ -342,3 +342,7 @@ image#sidebar-icon {
 toolbarseparator {
   display: none;
 }
+
+#autohide-context { display:none !important; } /* hide context menuitem "Exit Full Screen Mode" */
+
+#window-controls  { display:none !important; } /* hide window controls in full screen mode */
