@@ -199,9 +199,13 @@ width: 50% !important;
   text-align: center !important;
 }
 
-#tracking-protection-icon-container, #identity-box {
-  display: none;
+#identity-box.extensionPage, #identity-icon-labels {
+  display: none !important;
 }
+
+/*#tracking-protection-icon-container, #identity-box {*/
+  /*display: none;*/
+/*}*/
 
 #back-button > .toolbarbutton-icon{
   --backbutton-background: transparent !important;
