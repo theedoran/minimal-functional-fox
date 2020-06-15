@@ -77,7 +77,7 @@
 /*}*/
 
 .tab-text {
-  text-align: center;
+  text-align: center !important;
   font-family: var(--mff-tab-font-family);
   font-weight: var(--mff-tab-font-weight);
   font-size: var(--mff-tab-font-size) !important;
@@ -99,6 +99,7 @@ hbox.tab-content[pinned=true] .tab-text {
 }
 
 #tabbrowser-tabs {
+  text-align: center !important;
   --tab-loading-fill: #033433 !important;
 }
 
