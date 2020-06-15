@@ -11,7 +11,7 @@
   --mff-tab-font-family: "Cantarell", sans;
   --mff-tab-font-size: 11pt;
   --mff-tab-font-weight: 400;
-  --mff-tab-height: 32px;
+  --mff-tab-height: 28px;
   --mff-tab-pinned-bg: #E9922C;
   --mff-tab-selected-bg: #2091A9;
   --mff-tab-soundplaying-bg: #9c89b8;
@@ -100,7 +100,6 @@ hbox.tab-content[pinned=true] .tab-text {
 
 #tabbrowser-tabs {
   --tab-loading-fill: #033433 !important;
-
 }
 
 .tab-label-container:not([textoverflow]) {
