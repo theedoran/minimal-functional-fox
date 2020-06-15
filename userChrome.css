@@ -53,7 +53,7 @@
   opacity: 0.5 !important;
 }
 
-/* This positions the tabs under the navaigator container */
+/* This positions the tabs under the navigator container */
 #titlebar {
   -moz-box-ordinal-group: 3 !important;
 }
@@ -117,6 +117,10 @@ width: 50% !important;
 
 } */
 
+/*.toolbarbutton-icon {*/
+/* filter: drop-shadow(0 0 0.75rem crimson); */
+/*}*/
+
 .tab-line {
   display: none !important;
 }
@@ -160,13 +164,10 @@ width: 50% !important;
 .toolbarbutton-text {
   color: var(--mff-icon-color)  !important;
 }
+
 .urlbar-icon {
   color: var(--mff-icon-color)  !important;
 
-}
-
-.toolbarbutton-icon {
-/* filter: drop-shadow(0 0 0.75rem crimson); */
 }
 
 #urlbar-results {
@@ -191,6 +192,10 @@ width: 50% !important;
   font-size: var(--mff-urlbar-font-size) !important;
 }
 
+#urlbar {
+  margin-top: -0.27rem !important;
+}
+
 #urlbar-input {
   font-size: var(--mff-urlbar-font-size) !important;
   color: var(--mff-urlbar-color) !important;
@@ -199,7 +204,7 @@ width: 50% !important;
   text-align: center !important;
 }
 
-#identity-box.extensionPage, #identity-icon-labels {
+#identity-box.extensionPage label {
   display: none !important;
 }
 
